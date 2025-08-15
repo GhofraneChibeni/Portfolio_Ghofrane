@@ -65,7 +65,7 @@ function Projects() {
               description="Developed a web platform to automate the scheduling of final-year project defenses, manage juries, dates, and rooms, and generate PDF summaries for efficient and reliable organization."
               ghLink="#"
               demoLink="#"
-              techs={["Laravel", "Bootstrap", "MySQL"]}
+              techs={["Node.js", "Express.js", "React.js", "MongoDB"]}
             />
           </Col>
 
