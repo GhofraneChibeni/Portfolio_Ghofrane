@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import carGO from "../../Assets/Projects/Car.Go.png";
 import edu4all from "../../Assets/Projects/Edu4All.png";
 import goShop from "../../Assets/Projects/Go.Shop.png";
+import planif from "../../Assets/Projects/generation_pfe.jpeg";
+
+import reservation from "../../Assets/Projects/stadium.PNG";
 
 function Projects() {
   return (
@@ -48,6 +51,30 @@ function Projects() {
               isBlog={false}
               title="Car.Go"
               description="Developed a web platform for car sales allowing users to get expert opinions on financing options based on their salary via real-time chat."
+              ghLink="#"
+              demoLink="#"
+              techs={["Laravel", "Bootstrap", "MySQL"]}
+            />
+          </Col>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={planif}
+              isBlog={false}
+              title="FYP Scheduling System - ISSATSO"
+              description="Developed a web platform to automate the scheduling of final-year project defenses, manage juries, dates, and rooms, and generate PDF summaries for efficient and reliable organization."
+              ghLink="#"
+              demoLink="#"
+              techs={["Laravel", "Bootstrap", "MySQL"]}
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={reservation}
+              isBlog={false}
+              title="Stadium.Go"
+              description="Developed a web platform to automate the scheduling of final-year project defenses, manage juries, dates, and rooms, and generate PDF summaries for efficient and reliable organization."
               ghLink="#"
               demoLink="#"
               techs={["Laravel", "Bootstrap", "MySQL"]}
